@@ -90,6 +90,7 @@ private var mainView: RGAContactView {
 # O que mudaria com mais tempo ?
 
 - Abstrair controle de fluxo do app.
+- Verificar conexão "Reachability.swift".
 - Ajustaria "keyboards" para tela de "add new contact", ex:. datepicker para o campo "born".
 - Suporte a landscape e portrait.
 - Abstrair camada HTTP resquest visando ter mais chamadas dentro da aplicação.
