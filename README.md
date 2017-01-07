@@ -87,7 +87,7 @@ private var mainView: RGAContactView {
 - Model:
   Camada que contém entidades que representam os objetos consumidos via serviço ou banco de dados.
 
-# O que faria/mudaria com mais tempo
+# O que mudaria com mais tempo ?
 
 - Abstrair controle de fluxo do app.
 - Ajustaria "keyboards" para tela de "add new contact", ex:. datepicker para o campo "born".
