@@ -86,3 +86,12 @@ private var mainView: RGAContactView {
   
 - Model:
   Camada que contém entidades que representam os objetos consumidos via serviço ou banco de dados.
+
+# O que faria/mudaria com mais tempo
+
+- Abstrair controle de fluxo do app.
+- Ajustaria "keyboards" para tela de "add new contact", ex:. datepicker para o campo "born".
+- Suporte a landscape e portrait.
+- Abstrair camada HTTP resquest visando ter mais chamadas dentro da aplicação.
+- XCUITests e XCTests.
+- Implementação Rx databiding para "datasources" da lista.
