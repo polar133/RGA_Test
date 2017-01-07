@@ -10,3 +10,10 @@
 <img src="http://imageshack.com/a/img923/1841/uWtLPK.png" width="320"/>
 # Create a new contact
 <img src="http://imageshack.com/a/img923/9205/cfv2uU.png" width="320"/>
+# Bibliotecas utilizadas
+- pod 'SDWebImage', '~> 3.8'
+- pod 'JsonSwiftson', '~> 3.0'
+
+Utilizei a biblioteca "SDWebImage" pela facilidade na requisição assíncrona e cache das imagens de acordo com o valor da URL em questão, caso não consiga obter a imagem possivel adicionar um placeholder-image:
+
+Em "JsonSwiftson" não utilizei o "pod", pois se trata de única classe onde dentro do projeto foi renomeado para "RGAWrapper.swift", tambem gosto desta library pela facilidade de e agilidade em mapear objetos, atualmente na maioria dos projetos que desenvolvo não utilizo biblotecas de requisição ou mapeamento pois trabalho com "URSession" e "guard let":
